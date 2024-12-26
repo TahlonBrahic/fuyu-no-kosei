@@ -1,4 +1,13 @@
-# 冬の構成
+<div>
+  <img alt="NixOS Logo" src="https://github.com/NixOS/nixos-artwork/blob/master/logo/nix-snowflake-colours.svg" width="120px"/>
+  <h1>❖ Winter Composition ❖</h1>
+  <img alt="Static Badge" src="https://img.shields.io/badge/%E5%86%AC%E3%81%AE%E6%A7%8B%E6%88%90-a5e8e9">
+  <img src="https://img.shields.io/github/last-commit/TahlonBrahic/fuyu-no-kosei/?style=for-the-badge&labelColor=1B2330&color=23a5e8e9" alt="GitHub last commit"/>
+  <img src="https://img.shields.io/github/languages/code-size/TahlonBrahic/fuyu-no-kosei?style=for-the-badge&logoSize=auto&label=REPO%20SIZE&color=%23a5e8e9" alt="GitHub repo size"/>
+  <a href="https://nixos.org" target="_blank">
+    <img src="https://img.shields.io/badge/NixOS-stable-blue.svg?style=for-the-badge&labelColor=1B2330&logo=NixOS&logoColor=white&color=ef65ea" alt="NixOS Stable"/>
+  </a>
+</div>
 
 This repository contains a modular NixOS configuration designed to support multiple machines with profile support distributed across those machines.
 

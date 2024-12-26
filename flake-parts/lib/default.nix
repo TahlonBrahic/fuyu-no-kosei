@@ -1,4 +1,4 @@
-{
+localFlake: {
   inputs,
   system,
   pkgs,
@@ -13,6 +13,9 @@
   templates = [
     "systemTemplate"
   ];
+
+  forEachSystem = inputs.nixpkgs.lib.genAttrs (import inputs.systems);
+  genConfig = inputs.nixpkgs.lib.attrsets.mergeAttrsList;
 
   # Imports directories list with inputs, system, and pkgs
   importedDirectories = genAttrs directories (directory: import ./${directory}.nix {inherit inputs system pkgs;});

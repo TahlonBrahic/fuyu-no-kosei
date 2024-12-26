@@ -44,6 +44,11 @@ in {
   config = lib.mkIf cfg.enable {
     wayland.windowManager.hyprland = {
       enable = true;
+
+      exec-once = [
+        "hyprpaper"
+      ];
+
       settings = {
         env = [
           "NIXOS_OZONE_WL, 1"
